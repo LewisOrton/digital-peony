@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Peony</title>
+    <link rel="stylesheet" href="/src/ui/style.css" />
+  </head>
+  <body>
+    <main id="app"></main>
+    <div
+      class="peony-loader"
+      data-peony-loader
+      data-state="loading"
+      aria-hidden="true"
+    >
+      <div class="peony-loader-spinner">
+        <span style="--petal-angle: 0deg; --petal-index: 4"></span>
+        <span style="--petal-angle: 72deg; --petal-index: 3"></span>
+        <span style="--petal-angle: 144deg; --petal-index: 2"></span>
+        <span style="--petal-angle: 216deg; --petal-index: 1"></span>
+        <span style="--petal-angle: 288deg; --petal-index: 0"></span>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
