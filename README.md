@@ -2,7 +2,7 @@
 
 **Digital Peony** is an interactive procedural flower system and digital artwork that brings an organic peony into a distinctly digital visual language.
 
-## [Live Demo](https://lewisorton.github.io/digital-peony/)
+## [Live Demo](https://peony.lewis-o.chatgpt.site/)
 
 Built with Three.js, WebGPU, and TSL, it generates and animates a peony in real time.
 
